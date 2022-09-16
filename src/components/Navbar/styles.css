@@ -1,0 +1,20 @@
+.container{
+  position: absolute;
+  width: 100vw;
+}
+.custom-nav{
+  height: 90px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+.custom-ul{
+  display: flex;
+  flex-direction: row;
+  list-style: decimal;
+  gap:50px;
+}

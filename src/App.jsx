@@ -2,16 +2,18 @@ import React from "react";
 //import Tasklist from './Tasklist'
 import Taskform from "./Taskform";
 import { Greeting, UserCard } from "./components/Greeting";
-import Product, { Navbar } from "./components/Product";
+import Product from "./components/Product";
 import { Button } from "./components/Botton";
 import { Taskcard } from "./components/Task";
 import {Posts} from './components/Posts'
+import Navbar from "./components/Navbar";
 
 
 function App() {
   return (
     <>
-      <Posts/>
+    <Navbar></Navbar>
+      <Posts></Posts>
       <h1> Hola amiga</h1>
       <h2>
         Este es otro texto de prueba 
