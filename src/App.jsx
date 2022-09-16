@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Posts/>
-      
+      <h1> Hola amiga</h1>
     </>
   );
 }
