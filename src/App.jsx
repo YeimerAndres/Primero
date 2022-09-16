@@ -13,7 +13,8 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-      <Posts></Posts>
+      <Posts/>
+      <p>  para actualizar</p>
       <h1> Hola amiga</h1>
       <h2>
         Este es otro texto de prueba 
