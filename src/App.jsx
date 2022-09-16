@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <Posts/>
+      <p>  para actualizar</p>
       <h1> Hola amiga</h1>
     </>
   );
