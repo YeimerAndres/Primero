@@ -14,6 +14,10 @@ function App() {
       <Posts/>
       <p>  para actualizar</p>
       <h1> Hola amiga</h1>
+      <h2>
+        Este es otro texto de prueba 
+      </h2>
+      <button onClick={()=>window.alert('Hello broki')}>Click aqui</button>
     </>
   );
 }
