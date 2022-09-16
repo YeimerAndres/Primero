@@ -1,4 +1,4 @@
-export function Posts() {
+export default function Posts() {
   return (
     <button onClick={() => {
         fetch("https://jsonplaceholder.typicode.com/posts")

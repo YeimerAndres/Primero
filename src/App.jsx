@@ -5,21 +5,16 @@ import { Greeting, UserCard } from "./components/Greeting";
 import Product from "./components/Product";
 import { Button } from "./components/Botton";
 import { Taskcard } from "./components/Task";
-import {Posts} from './components/Posts'
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 
 function App() {
   return (
     <>
-    <Navbar></Navbar>
-      <Posts/>
-      <p>  para actualizar</p>
-      <h1> Hola amiga</h1>
-      <h2>
-        Este es otro texto de prueba 
-      </h2>
-      <button onClick={()=>window.alert('Hello broki')}>Click aqui</button>
+      <Navbar></Navbar>
+      
+      <Home></Home>
     </>
   );
 }
